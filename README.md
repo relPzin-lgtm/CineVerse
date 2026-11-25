@@ -1,6 +1,6 @@
 # CineVerse 🎬
 
-O CineVerse é um site de catálogo de filmes criado para uma atividade da faculdade. Nele é possível pesquisar filmes, filtrar por gênero, ver detalhes e salvar favoritos.
+O CineVerse é um site de catálogo de filmes criado para tirar suas duvidas em filmes. Nele é possível pesquisar filmes, filtrar por gênero, ver detalhes e salvar favoritos.
 
 Escolhi o **React** porque ele permite criar componentes reutilizáveis e atualizar as informações na tela sem recarregar a página, facilitando a criação de uma SPA.
 
