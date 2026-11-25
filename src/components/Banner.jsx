@@ -13,7 +13,7 @@ function Banner({ explorar, verDetalhes }) {
           <button className="botao-contorno" onClick={verDetalhes}>Ver destaque <span>→</span></button>
         </div>
       </div>
-      <div className="banner-legenda">★ 9.1 <span>•</span> Além das Estrelas <span>•</span> 2024</div>
+      <div className="banner-legenda">★ 8.7 <span>•</span> Interestelar <span>•</span> 2014</div>
     </section>
   );
 }

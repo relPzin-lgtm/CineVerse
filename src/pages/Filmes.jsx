@@ -4,7 +4,7 @@ import FilmeCard from '../components/FilmeCard';
 function Filmes({ filmes, favoritos, favoritar, detalhes }) {
   const [busca, setBusca] = useState('');
   const [genero, setGenero] = useState('Todos');
-  const generos = ['Todos', 'Ação', 'Comédia', 'Drama', 'Ficção científica', 'Romance', 'Suspense'];
+  const generos = ['Todos', ...new Set(filmes.map(filme => filme.genero))];
   const encontrados = filmes.filter(filme => filme.titulo.toLowerCase().includes(busca.toLowerCase()) && (genero === 'Todos' || filme.genero === genero));
 
   return (
